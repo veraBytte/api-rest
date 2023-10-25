@@ -21,7 +21,6 @@ import java.util.List;
 public class Cliente {
     @Id
     @Column(name = "id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idCliente;
 
     private String nombre;
